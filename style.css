@@ -1,0 +1,141 @@
+html {
+    background: url('./img/111.png') no-repeat center;
+    background-size: cover;
+}
+
+body {
+    max-width: 2500px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    color: crimson;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 400px;
+    margin-left: -350px;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    transform: translate(380px, -35px);
+}
+
+
+
+.menu-item:not(:last-child) {
+    margin-right: 63px;   
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 62px;
+}
+
+.quote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 0;
+    opacity: 0.7;
+}
+
+
+
+.button-order1 {
+    padding: 10px 55px;
+    border-radius: 5px;
+    color: crimson;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    transform: translate(200px, -165px);
+}
+
+main {
+    max-width: 500px;
+}
+
+
+
+
+
+.button-order2 {
+    padding: 10px 55px;
+    border-radius: 5px;
+    color: crimson;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    transform: translate(800px, -210px);
+
+}
+
+.button-order3 {
+    padding: 10px 55px;
+    border-radius: 5px;
+    color: crimson;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    transform: translate(1400px, -250px);
+}
+
+.button-order0 {
+    padding: 0px 0px;
+    border-radius: 5px;
+    color: crimson;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    transform: translate(680px, -640px);    
+}
+@media screen and (max-width: 768px) {
+  .button-order0 {
+    width: 50%;
+    max-width: 100%;
+    margin: auto auto 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button-order0 {
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu-list {
+    width: 50%;
+    max-width: 100%;
+    margin: auto auto 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu-list {
+    width: 95%;
+  }
+}
+
+
+
+
+
+
